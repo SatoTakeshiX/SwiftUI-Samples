@@ -10,24 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack(alignment: Alignment.top) {
-            MapView()
-                .drawer {
-                    VStack {
-                        //CoverImage(imageName: "maitlandbay")
-                        Text("Maitland Bay")
-                            .font(.headline)
-                        Spacer()
-                    }
-            }
-//            SlideOverCard {
-//                VStack {
-//                    //CoverImage(imageName: "maitlandbay")
-//                    Text("Maitland Bay")
-//                        .font(.headline)
-//                    Spacer()
-//                }
-//            }
+        MapView()
+            .drawer {
+                VStack {
+                    Text("Maitland Bay")
+                        .font(.headline)
+                    Spacer()
+                }
         }
         .edgesIgnoringSafeArea(.vertical)
     }
