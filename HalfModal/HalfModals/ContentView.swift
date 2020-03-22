@@ -1,16 +1,13 @@
-# SwiftUI-Samples
+//
+//  ContentView.swift
+//  HalfModals
+//
+//  Created by satoutakeshi on 2020/03/20.
+//  Copyright © 2020 satoutakeshi. All rights reserved.
+//
 
-## Half Modal 
+import SwiftUI
 
-It is *Map Application Style Half Modal* . 
-
-You can swipe the drawer and set three position that is bottom, middle and top. 
-
-![fig1](https://github.com/SatoTakeshiX/SwiftUI-Samples/blob/master/images/fig1.png)
-
-### How to use 
-
-```swift
 struct ContentView: View {
     var body: some View {
         MapView()
@@ -24,4 +21,9 @@ struct ContentView: View {
         .edgesIgnoringSafeArea(.vertical)
     }
 }
-```
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
