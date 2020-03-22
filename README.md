@@ -28,6 +28,6 @@ struct ContentView: View {
 
 ### Original Code
 
-This code was created based on [this gist](https://gist.github.com/mshafer/7e05d0a120810a9eb49d3589ce1f6f40) and [the article](https://www.mozzafiller.com/posts/swiftui-slide-over-card-like-maps-stocks)
+This code was created based on [mshafer's gist](https://gist.github.com/mshafer/7e05d0a120810a9eb49d3589ce1f6f40) and [his article](https://www.mozzafiller.com/posts/swiftui-slide-over-card-like-maps-stocks)
 
-
+* https://www.mozzafiller.com/posts/swiftui-slide-over-card-like-maps-stocks
